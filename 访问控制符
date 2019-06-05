@@ -1,0 +1,7 @@
+访问控制符的访问级别
+          同一个类         同一个包         子类          所有类
+private   *
+default   *               *
+protect   *               *                *
+public    *               *                *             *
+尝试了 private，子类不可访问这种private方法，即使在同一个包中。
